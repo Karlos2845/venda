@@ -82,3 +82,26 @@ header h1 {
 .product button:hover {
     background-color: #0056b3;
 }
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
