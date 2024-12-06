@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg,  #56055d, #56055d);
+    background: linear-gradient(135deg,  #5a585a, #575557);
     color: white;
 }
 
@@ -17,7 +17,7 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #0dcaf0;
+    color: #f9feff;
 }
 
 #search-bar {
@@ -71,7 +71,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     background: white;
-    color: (#f5fdff, 82, 241);
+    color: (#ecf009, 82, 241);
     transition: background 0.3s;
 }
 
