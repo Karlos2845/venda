@@ -70,7 +70,7 @@ body {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    background: white;
+    background: rgb(208, 255, 0);
     color: (#ecf009, 82, 241);
     transition: background 0.3s;
 }
