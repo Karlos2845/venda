@@ -85,54 +85,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário de Contato</title>
+  <title>Página de Produto</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    form {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-      width: 100%;
-      max-width: 400px;
-    }
-    h2 {
+      background: #f8f9fa;
       text-align: center;
-      margin-bottom: 20px;
+      padding: 50px;
     }
-    input, textarea, button {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 1em;
-    }
-    button {
+    .btn-comprar {
       background: #28a745;
       color: white;
-      font-weight: bold;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
       cursor: pointer;
+      transition: background 0.3s;
     }
-    button:hover {
+    .btn-comprar:hover {
       background: #218838;
     }
   </style>
 </head>
 <body>
-  <form action="https://formspree.io/f/abcdxyz method="POST">
-    <h2>Entre em Contato</h2>
-    <input type="text" name="name" placeholder="Seu Nome" required>
-    <input type="email" name="email" placeholder="Seu E-mail" required>
-    <textarea name="message" rows="5" placeholder="Sua mensagem..." required></textarea>
-    <button type="submit">Enviar</button>
-  </form>
+  <h1>Produto Exemplo</h1>
+  <p>Descrição rápida do produto...</p>
+  <p><strong>Preço: R$ 99,90</strong></p>
+
+  <!-- Botão que leva para o site de compra -->
+  <button class="btn-comprar" onclick="window.location.href='https://seusite.com/checkout'">
+    Comprar Agora
+  </button>
 </body>
 </html>
