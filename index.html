@@ -24,8 +24,6 @@
 
 
   <section id="produtos" class="produtos">
-
-    saude 
     <div class="container">
       <h2>Produtos em Destaque</h2>
       <div class="produtos-grid">
@@ -138,3 +136,37 @@
 
 
     
+
+
+
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato</title>
+  <style>
+    form { max-width: 600px; margin: 2rem auto; padding: 1rem; border: 1px solid #ddd; border-radius: 6px; }
+    label { display: block; margin-top: 0.5rem; }
+    input, textarea { width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ccc; border-radius: 4px; }
+    button { margin-top: 0.75rem; padding: 0.75rem 1.25rem; }
+  </style>
+</head>
+<body>
+  <form id="contact-form" action="send_mail.php" method="POST" autocomplete="on">
+    <label for="name">Nome</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Assunto</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Mensagem</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+
+    <button type="submit">Enviar mensagem</button>
+  </form>
+</body>
+</html>
